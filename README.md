@@ -1,5 +1,3 @@
-![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-logger/master/arts/3x1io-tomato-logger.jpg)
-
 # Filament logger
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-logger/version.svg)](https://packagist.org/packages/benjaminhansen/filament-logger)
