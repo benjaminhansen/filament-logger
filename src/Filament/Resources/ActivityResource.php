@@ -21,6 +21,18 @@ class ActivityResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-exclamation-triangle';
 
+    protected static bool $shouldRegisterNavigation = false;
+
+    public static function setNavigationVisibility(bool $visible): void
+    {
+        static::$shouldRegisterNavigation = $visible;
+    }
+
+    public static function shouldRegisterNavigation(): bool
+    {
+        return static::$shouldRegisterNavigation;
+    }
+
     public static function getNavigationGroup(): ?string
     {
         return trans('filament-logger::messages.group');
