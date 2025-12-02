@@ -35,7 +35,7 @@ class FilamentLoggerPlugin implements Plugin
         //
     }
 
-    public function showNavigation(bool|Closure $show): static
+    public function showNavigation(bool|Closure $show = true): static
     {
         $this->showNavigation = $show;
 
