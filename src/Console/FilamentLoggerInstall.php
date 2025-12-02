@@ -3,7 +3,7 @@
 namespace BenjaminHansen\FilamentLogger\Console;
 
 use Illuminate\Console\Command;
-use BenjaminHansen\ConsoleHelpers\Traits\RunCommand;
+use TomatoPHP\ConsoleHelpers\Traits\RunCommand;
 
 class FilamentLoggerInstall extends Command
 {
