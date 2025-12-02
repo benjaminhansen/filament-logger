@@ -4,13 +4,17 @@ namespace BenjaminHansen\FilamentLogger;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
+use Filament\Support\Concerns\EvaluatesClosures;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Config;
 use BenjaminHansen\FilamentLogger\Filament\Resources\ActivityResource;
+use Closure;
 
 class FilamentLoggerPlugin implements Plugin
 {
-    protected bool $showNavigation = false;
+    use EvaluatesClosures;
+
+    protected bool|Closure|null $showNavigation = null;
 
     public function getId(): string
     {
@@ -19,7 +23,7 @@ class FilamentLoggerPlugin implements Plugin
 
     public function register(Panel $panel): void
     {
-        ActivityResource::setNavigationVisibility($this->showNavigation);
+        ActivityResource::setNavigationVisibility($this->evaluate($this->showNavigation));
 
         $panel->resources([
             ActivityResource::class
@@ -31,7 +35,7 @@ class FilamentLoggerPlugin implements Plugin
         //
     }
 
-    public function showNavigation(bool $show = true): static
+    public function showNavigation(bool|Closure $show): static
     {
         $this->showNavigation = $show;
 
@@ -40,6 +44,11 @@ class FilamentLoggerPlugin implements Plugin
 
     public static function make(): static
     {
-        return new static();
+        $plugin = app(static::class);
+
+        // defaults
+        $plugin->showNavigation(false);
+
+        return $plugin;
     }
 }
