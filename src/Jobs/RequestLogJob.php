@@ -1,8 +1,8 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Jobs;
+namespace BenjaminHansen\FilamentLogger\Jobs;
 
-use TomatoPHP\FilamentLogger\Services\RequestLoggerService;
+use BenjaminHansen\FilamentLogger\Services\RequestLoggerService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

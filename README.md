@@ -2,9 +2,9 @@
 
 # Filament logger
 
-[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-logger/version.svg)](https://packagist.org/packages/tomatophp/filament-logger)
-[![License](https://poser.pugx.org/tomatophp/filament-logger/license.svg)](https://packagist.org/packages/tomatophp/filament-logger)
-[![Downloads](https://poser.pugx.org/tomatophp/filament-logger/d/total.svg)](https://packagist.org/packages/tomatophp/filament-logger)
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-logger/version.svg)](https://packagist.org/packages/benjaminhansen/filament-logger)
+[![License](https://poser.pugx.org/tomatophp/filament-logger/license.svg)](https://packagist.org/packages/benjaminhansen/filament-logger)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-logger/d/total.svg)](https://packagist.org/packages/benjaminhansen/filament-logger)
 
 Log all user activity to file or log driver and preview it on your FilamentPHP panel
 
@@ -17,7 +17,7 @@ Log all user activity to file or log driver and preview it on your FilamentPHP p
 ## Installation
 
 ```bash
-composer require tomatophp/filament-logger
+composer require benjaminhansen/filament-logger
 ```
 after install your package please run this command
 
@@ -28,7 +28,7 @@ php artisan filament-logger:install
 finally register the plugin on `/app/Providers/Filament/AdminPanelProvider.php`
 
 ```php
-->plugin(\TomatoPHP\FilamentLogger\FilamentLoggerPlugin::make())
+->plugin(\BenjaminHansen\FilamentLogger\FilamentLoggerPlugin::make())
 ```
 
 
@@ -63,7 +63,7 @@ where `admin` is the id of the panel.
 you can add a custom log from anywhere in your code by using this code
 
 ```php
-use TomatoPHP\FilamentLogger\Facades\FilamentLogger;
+use BenjaminHansen\FilamentLogger\Facades\FilamentLogger;
 
 FilamentLogger::log(message:'Your message here', level:'info');
 ```
@@ -87,7 +87,3 @@ you can publish migrations file by use this command
 ```bash
 php artisan vendor:publish --tag="filament-logger-migrations"
 ```
-
-## Other Filament Packages
-
-Checkout our [Awesome TomatoPHP](https://github.com/tomatophp/awesome)

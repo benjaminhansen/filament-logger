@@ -1,12 +1,12 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Filament\Resources\ActivityResource\Pages;
+namespace BenjaminHansen\FilamentLogger\Filament\Resources\ActivityResource\Pages;
 
 use Filament\Notifications\Notification;
-use TomatoPHP\FilamentLogger\Filament\Resources\ActivityResource;
+use BenjaminHansen\FilamentLogger\Filament\Resources\ActivityResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ManageRecords;
-use TomatoPHP\FilamentLogger\Models\Activity;
+use BenjaminHansen\FilamentLogger\Models\Activity;
 
 class ManageActivities extends ManageRecords
 {

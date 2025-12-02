@@ -1,9 +1,9 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Services;
+namespace BenjaminHansen\FilamentLogger\Services;
 
 use Illuminate\Support\Str;
-use TomatoPHP\FilamentLogger\Models\Activity;
+use BenjaminHansen\FilamentLogger\Models\Activity;
 
 class LoggerServices
 {

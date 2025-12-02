@@ -1,6 +1,6 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Handlers;
+namespace BenjaminHansen\FilamentLogger\Handlers;
 
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Logger;

@@ -1,9 +1,9 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Interpolations;
+namespace BenjaminHansen\FilamentLogger\Interpolations;
 
 use Illuminate\Support\Collection;
-use TomatoPHP\FilamentLogger\Contracts\InterpolationContract;
+use BenjaminHansen\FilamentLogger\Contracts\InterpolationContract;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 

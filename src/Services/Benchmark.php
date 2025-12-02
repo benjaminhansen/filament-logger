@@ -1,6 +1,6 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Services;
+namespace BenjaminHansen\FilamentLogger\Services;
 
 use RuntimeException;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\LogCustomizers;
+namespace BenjaminHansen\FilamentLogger\LogCustomizers;
 
-use TomatoPHP\FilamentLogger\Formatters\LineWithHashFormatter;
+use BenjaminHansen\FilamentLogger\Formatters\LineWithHashFormatter;
 use \Illuminate\Log\Logger;
 
 /**

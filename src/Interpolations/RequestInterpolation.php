@@ -1,6 +1,6 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Interpolations;
+namespace BenjaminHansen\FilamentLogger\Interpolations;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;

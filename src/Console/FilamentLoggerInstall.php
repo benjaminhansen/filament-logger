@@ -1,9 +1,9 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Console;
+namespace BenjaminHansen\FilamentLogger\Console;
 
 use Illuminate\Console\Command;
-use TomatoPHP\ConsoleHelpers\Traits\RunCommand;
+use BenjaminHansen\ConsoleHelpers\Traits\RunCommand;
 
 class FilamentLoggerInstall extends Command
 {

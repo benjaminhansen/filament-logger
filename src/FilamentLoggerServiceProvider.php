@@ -1,10 +1,10 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger;
+namespace BenjaminHansen\FilamentLogger;
 
 use Illuminate\Support\ServiceProvider;
-use TomatoPHP\FilamentLogger\EventServiceProvider;
-use TomatoPHP\FilamentLogger\Services\Benchmark;
+use BenjaminHansen\FilamentLogger\EventServiceProvider;
+use BenjaminHansen\FilamentLogger\Services\Benchmark;
 
 
 class FilamentLoggerServiceProvider extends ServiceProvider
@@ -13,7 +13,7 @@ class FilamentLoggerServiceProvider extends ServiceProvider
     {
         //Register generate command
         $this->commands([
-           \TomatoPHP\FilamentLogger\Console\FilamentLoggerInstall::class,
+           \BenjaminHansen\FilamentLogger\Console\FilamentLoggerInstall::class,
         ]);
 
         //Register Config file
@@ -45,7 +45,7 @@ class FilamentLoggerServiceProvider extends ServiceProvider
         Benchmark::start(config('filament-logger.request.benchmark', 'application'));
 
         $this->app->bind('filament-logger', function () {
-            return new \TomatoPHP\FilamentLogger\Services\LoggerServices();
+            return new \BenjaminHansen\FilamentLogger\Services\LoggerServices();
         });
 
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Interpolations;
+namespace BenjaminHansen\FilamentLogger\Interpolations;
 
-use TomatoPHP\FilamentLogger\Services\Benchmark;
+use BenjaminHansen\FilamentLogger\Services\Benchmark;
 use Illuminate\Support\Str;
 
 /**

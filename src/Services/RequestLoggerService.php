@@ -1,15 +1,15 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Services;
+namespace BenjaminHansen\FilamentLogger\Services;
 
 use Illuminate\Support\Collection;
-use TomatoPHP\FilamentLogger\Interpolations\RequestInterpolation;
-use TomatoPHP\FilamentLogger\Interpolations\ResponseInterpolation;
-use TomatoPHP\FilamentLogger\Loggers\RequestLogger;
+use BenjaminHansen\FilamentLogger\Interpolations\RequestInterpolation;
+use BenjaminHansen\FilamentLogger\Interpolations\ResponseInterpolation;
+use BenjaminHansen\FilamentLogger\Loggers\RequestLogger;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Arr;
-use TomatoPHP\FilamentLogger\Models\Activity;
+use BenjaminHansen\FilamentLogger\Models\Activity;
 
 /**
  * Class RequestLoggerService

@@ -1,6 +1,6 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Contracts;
+namespace BenjaminHansen\FilamentLogger\Contracts;
 
 /**
  * Interface InterpolationContract

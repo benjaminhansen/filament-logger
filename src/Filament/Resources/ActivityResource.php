@@ -1,12 +1,12 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Filament\Resources;
+namespace BenjaminHansen\FilamentLogger\Filament\Resources;
 
 use Filament\Infolists\Components\TextEntry;
 use Filament\Infolists\Infolist;
-use TomatoPHP\FilamentLogger\Filament\Resources\ActivityResource\Pages;
-use TomatoPHP\FilamentLogger\Filament\Resources\ActivityResource\RelationManagers;
-use TomatoPHP\FilamentLogger\Models\Activity;
+use BenjaminHansen\FilamentLogger\Filament\Resources\ActivityResource\Pages;
+use BenjaminHansen\FilamentLogger\Filament\Resources\ActivityResource\RelationManagers;
+use BenjaminHansen\FilamentLogger\Models\Activity;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;

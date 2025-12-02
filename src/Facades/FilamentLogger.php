@@ -1,6 +1,6 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Facades;
+namespace BenjaminHansen\FilamentLogger\Facades;
 
 
 use Illuminate\Support\Facades\Facade;

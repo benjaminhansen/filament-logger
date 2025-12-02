@@ -10,7 +10,7 @@
     "keywords": [],
     "priority": 0,
     "providers": [
-        "TomatoPHP\\FilamentLogger\\FilamentLoggerServiceProvider"
+        "BenjaminHansen\\FilamentLogger\\FilamentLoggerServiceProvider"
     ],
     "files": [],
     "title": {

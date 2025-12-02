@@ -1,6 +1,6 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Models;
+namespace BenjaminHansen\FilamentLogger\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

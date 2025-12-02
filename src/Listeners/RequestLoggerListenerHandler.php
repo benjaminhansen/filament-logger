@@ -1,9 +1,9 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Listeners;
+namespace BenjaminHansen\FilamentLogger\Listeners;
 
-use TomatoPHP\FilamentLogger\Jobs\RequestLogJob;
-use TomatoPHP\FilamentLogger\Services\Benchmark;
+use BenjaminHansen\FilamentLogger\Jobs\RequestLogJob;
+use BenjaminHansen\FilamentLogger\Services\Benchmark;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Http\Events\RequestHandled;
 use Illuminate\Http\Request;

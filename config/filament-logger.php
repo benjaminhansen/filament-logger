@@ -15,7 +15,7 @@ return [
          */
 
         'handlers' => [
-            TomatoPHP\FilamentLogger\Handlers\RequestLoggerHandler::class
+            BenjaminHansen\FilamentLogger\Handlers\RequestLoggerHandler::class
         ],
 
         /*

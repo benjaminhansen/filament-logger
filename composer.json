@@ -1,5 +1,5 @@
 {
-    "name": "tomatophp/filament-logger",
+    "name": "benjaminhansen/filament-logger",
     "type": "library",
     "description": "Log all user activity to file or log driver and preview it on your FilamentPHP panel",
     "keywords": [
@@ -12,7 +12,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "TomatoPHP\\FilamentLogger\\": "src/"
+            "BenjaminHansen\\FilamentLogger\\": "src/"
         }
     },
     "autoload-dev": {
@@ -23,14 +23,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TomatoPHP\\FilamentLogger\\FilamentLoggerServiceProvider"
+                "BenjaminHansen\\FilamentLogger\\FilamentLoggerServiceProvider"
             ]
         }
     },
     "authors": [
         {
-            "name": "Fady Mondy",
-            "email": "info@3x1.io"
+            "name": "Benjamin Hansen",
+            "email": "bjhansen@benjaminhansen.net"
         }
     ],
     "require": {

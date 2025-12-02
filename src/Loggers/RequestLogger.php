@@ -1,6 +1,6 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Loggers;
+namespace BenjaminHansen\FilamentLogger\Loggers;
 
 use Psr\Log\LoggerInterface;
 use RuntimeException;

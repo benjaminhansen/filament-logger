@@ -1,12 +1,12 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger;
+namespace BenjaminHansen\FilamentLogger;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Config;
-use TomatoPHP\FilamentLogger\Filament\Resources\ActivityResource;
+use BenjaminHansen\FilamentLogger\Filament\Resources\ActivityResource;
 
 class FilamentLoggerPlugin implements Plugin
 {

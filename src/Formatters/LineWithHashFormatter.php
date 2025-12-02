@@ -1,9 +1,9 @@
 <?php
 
-namespace TomatoPHP\FilamentLogger\Formatters;
+namespace BenjaminHansen\FilamentLogger\Formatters;
 
 use Monolog\LogRecord;
-use TomatoPHP\FilamentLogger\Services\Benchmark;
+use BenjaminHansen\FilamentLogger\Services\Benchmark;
 use Monolog\Formatter\LineFormatter;
 
 /**
